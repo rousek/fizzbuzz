@@ -1,0 +1,12 @@
+Fizz: Fizz
+Buzz: Buzz
+Fizz modulo: 3
+Buzz modulo: 5
+Fizz priority: 2
+Buzz priority: 1
+Fizz_Buzz separator: " "
+Result separator: ", "
+Start: 1
+End: 100
+Preamble: ""
+Postamble: "\n"
