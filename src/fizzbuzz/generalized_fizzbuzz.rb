@@ -28,6 +28,7 @@ class GeneralizedFizzBuzz
 
       result = block.get_result_for_number num
       @printer.print result
+      break
     end
   end
 end
