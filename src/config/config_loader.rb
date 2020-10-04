@@ -29,7 +29,10 @@ class ConfigLoader
     warn 'Missing path to config file.'
     warn 'Set environment variable "FIZZBUZZ_CONFIG" to '\
           '/path/to/fizzbuzz_config.yaml'
-    raise
+    warn 'Using default config file path.'
+    File.expand_path('../../fizzbuzz_config.yaml',
+                     File.dirname(__FILE__))
+    # raise
   end
 
   def load_config_data
